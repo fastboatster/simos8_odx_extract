@@ -25,7 +25,7 @@ def decrypt_simos8_block(arr):
     return result, dupl_list
 
 
-test_odx = '/Users/fastboatster/Downloads/FL_8K0907551D__0003.odx'
+test_odx = '~/Downloads/FL_8K0907551D__0003.odx'
 
 if sys.argv[1] == 'test':
     tree = ET.parse(test_odx)
